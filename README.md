@@ -28,7 +28,7 @@ Directoy structure:
 1. Spring ApplicationConfig - classpath:META-INF/spring/root-context.xml  
 2. Spring DispatcherServlet - /WEB-INF/spring/servlet-context.xml (i.e. from 'webapp')  
 3. Mybatis Global Config - classpath:META-INF/mybatis/mybatis-config.xml  
-4. Mybatis Mappers - classpath:META-INF/mybatis/mappers/**/*Mapper.xml (sth 'mapper')  
+4. Mybatis Mappers - classpath:META-INF/mybatis/mappers/*Mapper.xml (sth 'mapper')  
 5. log4j - classpath:log4j.xml  
 6. web.xml - /WEB-INF/web.xml  
 7. pom.xml - (project root)  
