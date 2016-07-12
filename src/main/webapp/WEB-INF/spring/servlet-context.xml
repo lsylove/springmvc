@@ -20,6 +20,6 @@
 		in the /WEB-INF/views directory -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-		p:prefix="/WEB-INF/view/" p:suffix=".jsp" />
+		p:prefix="/WEB-INF/views/" p:suffix=".jsp" />
 
 </beans>
