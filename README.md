@@ -5,7 +5,7 @@ Files to be changed when importing:
 1. POM.xml (artifactId and name; 7th and 8th lines)  
 2. web.xml (display-name; 6th line)  
 3. root-context.xml (Spring ApplicationConfig) (connection profile)  
-4. web.xml (also connection profile - when using JNDI resources)
+4. web.xml (also connection profile - when using JNDI resources)  
 5. Delete dummy object and test file  
 6. Fix the readme.md file to your own version  
 
