@@ -4,7 +4,7 @@ Spring MVC Stub (Legacy Project)
 Files to be changed when importing:  
 1. POM.xml (artifactId and name; 7th and 8th lines)  
 2. web.xml (display-name; 6th line)  
-3. root-context.xml (Spring ApplicationConfig) (connection profile)  
+3. application-config.xml (connection profile)  
 4. web.xml (also connection profile - when using JNDI resources)  
 5. Delete dummy object and test file  
 6. Fix the readme.md file to your own version  
@@ -25,7 +25,7 @@ Test environment:
 2. Spring Test 4.2.6  
 
 Directoy structure:  
-1. Spring ApplicationConfig - classpath:META-INF/spring/root-context.xml  
+1. Spring ApplicationConfig - classpath:META-INF/spring/application-config.xml  
 2. Spring DispatcherServlet - /WEB-INF/spring/servlet-context.xml (i.e. from 'webapp')  
 3. Mybatis Global Config - classpath:META-INF/mybatis/mybatis-config.xml  
 4. Mybatis Mappers - classpath:META-INF/mybatis/mappers/*Mapper.xml (sth 'mapper')  
